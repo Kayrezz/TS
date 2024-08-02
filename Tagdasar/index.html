@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag dasar</title>
+</head>
+<style>
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 100px;
+        background: green;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+    
+    .logo {
+        font-size: 32px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    
+    .navbar a {
+        position: relative;
+        font-size: 18px;
+        color: #fff;
+        font-weight: 500;
+        text-decoration: none;
+        font-family: serif;
+        margin-left: 40px;
+    }
+    
+    .navbar a::before {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: #fff;
+        transition: .3s;
+    }
+    
+    .navbar a:hover::before {
+        width: 100%;
+    }
+    
+    .container {
+        margin-top: 100px;
+        align-items: center;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <a href="../index.html" target="_parent" class="logo">TUGAS</a>
+        <nav class="navbar">
+            <a href="../index.html" target="_blank">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">TUGAS</a>
+            <a href="#">CONTACT</a>
+        </nav>
+    </header>
+    <div class="container">
+        <strong><i><h1>Tag tag dasar html</h1></i></strong>
+        <table border="1">
+            <td>
+                <ul>
+                    <li>Heading
+                        <dl>Adalah sebuah penanda awal Tulisan</dl>
+                    </li>
+                    <li>Hyperlink
+                        <dl>sebuah penghubung antar folder</dl>
+                    </li>
+                    <li>Media
+                        <dl>memasukan seperti image,video,dan musik</dl>
+                    </li>
+                    <li>Formating text
+                        <dl>memformat bentuk text sesuai keinginan</dl>
+                    </li>
+                    <li>Table
+                        <dl>menambahkan column</dl>
+                    </li>
+                </ul>
+            </td>
+            <td>
+                <ol type="1">
+                    <li>Heading
+                        <dl>Adalah sebuah penanda awal Tulisan</dl>
+                    </li>
+                    <li>Hyperlink
+                        <dl>sebuah penghubung antar folder</dl>
+                    </li>
+                    <li>Media
+                        <dl>memasukan seperti image,video,dan musik</dl>
+                    </li>
+                    <li>Formating text
+                        <dl>memformat bentuk text sesuai keinginan</dl>
+                    </li>
+                    <li>Table
+                        <dl>menambahkan column</dl>
+                    </li>
+                </ol>
+            </td>
+            <td>
+                <ol type="A">
+                    <li>Heading
+                        <dl>Adalah sebuah penanda awal Tulisan</dl>
+                    </li>
+                    <li>Hyperlink
+                        <dl>sebuah penghubung antar folder</dl>
+                    </li>
+                    <li>Media
+                        <dl>memasukan seperti image,video,dan musik</dl>
+                    </li>
+                    <li>Formating text
+                        <dl>memformat bentuk text sesuai keinginan</dl>
+                    </li>
+                    <li>Table
+                        <dl>menambahkan column</dl>
+                    </li>
+                </ol>
+            </td>
+            <tbody>
+                <td>
+                    <ol type="I">
+                        <li>Heading
+                            <dl>Adalah sebuah penanda awal Tulisan</dl>
+                        </li>
+                        <li>Hyperlink
+                            <dl>sebuah penghubung antar folder</dl>
+                        </li>
+                        <li>Media
+                            <dl>memasukan seperti image,video,dan musik</dl>
+                        </li>
+                        <li>Formating text
+                            <dl>memformat bentuk text sesuai keinginan</dl>
+                        </li>
+                        <li>Table
+                            <dl>menambahkan column</dl>
+                        </li>
+                    </ol>
+                </td>
+                <td>
+                    <ul type="square">
+                        <li>Heading
+                            <dl>Adalah sebuah penanda awal Tulisan</dl>
+                        </li>
+                        <li>Hyperlink
+                            <dl>sebuah penghubung antar folder</dl>
+                        </li>
+                        <li>Media
+                            <dl>memasukan seperti image,video,dan musik</dl>
+                        </li>
+                        <li>Formating text
+                            <dl>memformat bentuk text sesuai keinginan</dl>
+                        </li>
+                        <li>Table
+                            <dl>menambahkan column</dl>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <ul type="none">
+                        <li>Heading
+                            <dl>Adalah sebuah penanda awal Tulisan</dl>
+                        </li>
+                        <li>Hyperlink
+                            <dl>sebuah penghubung antar folder</dl>
+                        </li>
+                        <li>Media
+                            <dl>memasukan seperti image,video,dan musik</dl>
+                        </li>
+                        <li>Formating text
+                            <dl>memformat bentuk text sesuai keinginan</dl>
+                        </li>
+                        <li>Table
+                            <dl>menambahkan column</dl>
+                        </li>
+                    </ul>
+                </td>
+            </tbody>
+        </table>
+        <div class="container2">
+            <h1 style="font-size: 50px; text-align: center; font-family: 'Courier New', Courier, monospace;">Media</h1>
+            <table border="2" align="right">
+                <td>
+                    <img src="../src/3 element.jpeg">
+                </td>
+                <tr>
+                    <i><h2>Boboboy</h2></i>
+                </tr>
+                <tr>
+                    <video style="border-radius: 20%;" src="../src/Boboy.mp4" controls width="50%"></video>
+                </tr>
+            </table>
+            <h3 style="margin: 20px;">Lagu AW Ghost</h3>
+            <tr>
+                <audio src="../src/aw ghost.m4a" controls></audio>
+            </tr>
+        </div>
+    </div>
+    <table style="margin-top: 200px;" border="1" align="center">
+        <th>Karakter di boboiboy musim1</th>
+        <th>Nama Karakter</th>
+        <th>Deskripsi karakter</th>
+        <tbody>
+            <tr>
+                <td>
+                    <a href=""><img src="../src/3 element.jpeg" alt="" width="350px"></a>
+                </td>
+                <td align="center">BoBoiBoy</td>
+                <td style="width: 556px;">BoBoiBoy (lahir pada 13 Maret adalah karakter utama dan eponim dalam seri BoBoiBoy dan BoBoiBoy Galaxy. Seorang pahlawan elemental muda dari Bumi yang bisa mengawal Kekuatan Elemental dan mempunyai misi untuk mencari dan mengumpulkan Power
+                    Sphera yang tersembunyi di mana-mana galaksi.</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href=""><img src="../src/adudu & probe.jpeg" alt="" width="350px"></a>
+                </td>
+                <td align="center">A Dudu & Probe</td>
+                <td style="width: 556px;">Penyamaran: Adu Du sangat pandai berakting dan menyamar, sehingga banyak orang yang tertipu dengan tipu muslihatnya. Dia juga dapat menyamar menjadi orang lain hanya dengan memakai atribut tambahan untuk menutupi penampilan aliennya.Tujuan
+                    datang ke bumi adalah untuk mengambil kembali kuasa</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href=""><img src="../src/yaya&ying.jpg" alt="" width="350px"></a>
+                </td>
+                <td align="center">Yaya & Ying</td>
+                <td style="width: 556px;">Yaya adalah salah satu tokoh fiktif dalam serial animasi BoBoiBoy. Ia berperan sebagai teman dari BoBoiBoy juga tetangganya Tok Aba yang memiliki kemampuan untuk memanipulasi gravitasi, yang memungkinkan dia untuk mengontrol gravitasi
+                    dan terbang. Ying adalah salah satu tokoh fiktif dalam serial animasi BoBoiBoy. Ia seorang gadis ceria yang juga merupakan sahabatnya Yaya. Mereka selalu bersaing dalam setiap aspek tetapi tidak mempengaruhi persahabatan mereka.</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href=""><img src="../src/Gopal_season_2.jpeg" alt="" width="350px"></a>
+                </td>
+                <td align="center">Gopal</td>
+                <td style="width: 556px;">Gopal adalah teman BoBoiBoy yang suka makan dan memiliki kekuatan molekul. Ia mampu mengubah benda-benda menjadi makanan atau benda lain.</td>
+            </tr>
+    </table>
+
+</body>
+
+</html>
